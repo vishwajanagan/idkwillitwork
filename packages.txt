@@ -4,4 +4,4 @@ libglib2.0-0
 libcairo2
 libfreetype6
 libpng16-16
-libjpeg-turbo8
+libjpeg62-turbo
