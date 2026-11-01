@@ -1,0 +1,7 @@
+libxrender1
+libgl1
+libglib2.0-0
+libcairo2
+libfreetype6
+libpng16-16
+libjpeg-turbo8
