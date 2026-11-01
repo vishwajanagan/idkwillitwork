@@ -16,7 +16,7 @@ h1,h2,h3{color:#F8FAFC!important}.stMarkdown,p,label{color:#B6B0C9}.brand{font-w
 if 'smiles' not in st.session_state: st.session_state.smiles='CC(=O)OC1=CC=CC=C1C(=O)O'
 if 'result' not in st.session_state: st.session_state.result=None
 with st.sidebar:
- st.markdown('<div class="brand">CHEM<span>LABS</span>VARSHINI</div>',unsafe_allow_html=True); st.caption('MOLECULAR INTELLIGENCE LAB'); st.divider()
+ st.markdown('<div class="brand">CHEM<span>LABS</div>',unsafe_allow_html=True); st.caption('MOLECULAR INTELLIGENCE LAB'); st.divider()
  page=st.radio('WORKSPACE',['Dashboard','Molecular Laboratory','Property Analysis','Molecule Comparison','AI Chemistry Assistant','Compound Explorer','Reports & Exports','About'])
  st.divider(); st.caption('Designed & Developed by Varshini A')
 cols=st.columns([3,1]); cols[0].markdown('<div class="kicker">EXPLORE · VISUALIZE · ANALYZE · COMPARE</div>',unsafe_allow_html=True)
