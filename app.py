@@ -122,4 +122,4 @@ elif page=='Reports & Exports':
  except Exception as e: st.error(str(e))
 elif page=='About':
  st.title('About CHEMLABS'); st.markdown('<div class="hero"><div class="kicker">MOLECULAR INTELLIGENCE & VISUALIZATION LABORATORY</div><h2>Explore. Visualize. Analyze. Compare.</h2><p>Designed & Developed by Varshini A</p></div>',unsafe_allow_html=True); st.write('Educational application using RDKit for parsing, depictions, calculated descriptors, and conformer generation.')
- st.markdown('**Scientific limitations**\n- Descriptors are calculated, not experimental.\n- Generated conformers are not necessarily experimental structures or global minima.\n- Lipinski rules are screening heuristics, not proof of safety or suitability.\n- PubChem and live AI require external connectivity.\n- No official SRM logo or institutional approval is represented.');
+ st.markdown('**Scientific limitations**\n- Descriptors are calculated, not experimental.\n- Generated conformers are not necessarily experimental structures or global minima.\n- Lipinski rules are screening heuristics, not proof of safety or suitability.\n- PubChem and live AI require external connectivity.');
